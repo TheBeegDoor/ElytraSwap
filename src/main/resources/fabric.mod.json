@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "elytraswap",
+  "version": "${version}",
+  "name": "ElytraSwap",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/elytraswap/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "org.jmod.elytraswap.client.ElytraswapClient"
+    ],
+    "main": [
+      "org.jmod.elytraswap.Elytraswap"
+    ]
+  },
+  "mixins": [
+    "elytraswap.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
