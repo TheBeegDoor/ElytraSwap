@@ -3,10 +3,14 @@
   "id": "elytraswap",
   "version": "${version}",
   "name": "ElytraSwap",
-  "description": "",
-  "authors": [],
-  "contact": {},
-  "license": "All-Rights-Reserved",
+  "description": "Another Minecraft mod to swap an elytra and chestplate.",
+  "authors": ["TheDoor256 (TheBeegDoor)"],
+  "contact": {
+    "homepage": "https://github.com/TheBeegDoor/ElytraSwap",
+    "sources": "https://github.com/TheBeegDoor/ElytraSwap",
+    "issues": "https://github.com/TheBeegDoor/ElytraSwap/issues"
+  },
+  "license": "LGPLv3",
   "icon": "assets/elytraswap/icon.png",
   "environment": "client",
   "entrypoints": {
@@ -14,7 +18,6 @@
       "org.jmod.elytraswap.client.ElytraswapClient"
     ],
     "main": [
-      "org.jmod.elytraswap.Elytraswap"
     ]
   },
   "mixins": [

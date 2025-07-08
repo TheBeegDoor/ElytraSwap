@@ -4,6 +4,7 @@
   "package": "org.jmod.elytraswap.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
+    "ClientPlayerMixin"
   ],
   "client": [
   ],

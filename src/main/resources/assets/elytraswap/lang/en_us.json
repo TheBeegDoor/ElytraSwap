@@ -1,0 +1,7 @@
+{
+  "category.elytraswap.controls": "ElytraSwap",
+  "key.elytraswap.set_chesplate": "Set Swappable Chestplate",
+  "key.elytraswap.set_elytra": "Set Swappable Flight Item",
+  "elytraswap.equip.chestplate.success": "Set new swapping chestplate!",
+  "elytraswap.equip.elytra.success": "Set new swapping flight item!"
+}
